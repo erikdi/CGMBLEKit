@@ -85,6 +85,7 @@
 		43F82BD01D035D68006F5DD7 /* SessionStopRxMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F82BCF1D035D68006F5DD7 /* SessionStopRxMessage.swift */; };
 		43F82BD21D037040006F5DD7 /* SessionStopRxMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F82BD11D037040006F5DD7 /* SessionStopRxMessageTests.swift */; };
 		43F82BD41D037227006F5DD7 /* SessionStartRxMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F82BD31D037227006F5DD7 /* SessionStartRxMessageTests.swift */; };
+		49397B2222107F37004377AF /* Locked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49397B2122107F37004377AF /* Locked.swift */; };
 		C19084BB203932BD00AA47F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19084B9203932BD00AA47F3 /* Main.storyboard */; };
 		C1CD8B0C203931AD00A8F498 /* NSUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD8B0A203931AD00A8F498 /* NSUserDefaults.swift */; };
 		E71BFF7E20673BD700C876A2 /* CommandQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71BFF7D20673BD700C876A2 /* CommandQueue.swift */; };
@@ -229,6 +230,7 @@
 		43F82BCF1D035D68006F5DD7 /* SessionStopRxMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStopRxMessage.swift; sourceTree = "<group>"; };
 		43F82BD11D037040006F5DD7 /* SessionStopRxMessageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStopRxMessageTests.swift; sourceTree = "<group>"; };
 		43F82BD31D037227006F5DD7 /* SessionStartRxMessageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStartRxMessageTests.swift; sourceTree = "<group>"; };
+		49397B2122107F37004377AF /* Locked.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locked.swift; sourceTree = "<group>"; };
 		C19084BA203932BD00AA47F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1CD8B0A203931AD00A8F498 /* NSUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserDefaults.swift; sourceTree = "<group>"; };
 		E71BFF7D20673BD700C876A2 /* CommandQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandQueue.swift; sourceTree = "<group>"; };
@@ -430,6 +432,7 @@
 		43D140CD2047AA530032346D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				49397B2122107F37004377AF /* Locked.swift */,
 				43DC87BF1C8B509B005BC30D /* Data.swift */,
 				43E397921D56950C0028E321 /* HKUnit.swift */,
 			);
@@ -674,6 +677,7 @@
 				43CE7CD01CA73C57003CC1B0 /* SessionStopTxMessage.swift in Sources */,
 				431CE7671F91D0B300255374 /* PeripheralManager+G5.swift in Sources */,
 				43CABE2A1C350B3D00005705 /* GlucoseTxMessage.swift in Sources */,
+				49397B2222107F37004377AF /* Locked.swift in Sources */,
 				434B288320649D3C000EE07B /* ResetMessage.swift in Sources */,
 				43CE7CC81CA73AEB003CC1B0 /* FirmwareVersionTxMessage.swift in Sources */,
 				43D140D12047BD930032346D /* Opcode.swift in Sources */,
